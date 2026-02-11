@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kryvon Edge is a structured crypto intelligence platform focused on risk-aware digital asset allocation.">
+  <title>Kryvon Edge — Structured Crypto Intelligence</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/main.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#"><span class="brand-dot"></span>Kryvon Edge</a>
+      <nav class="nav-links">
+        <a href="#platform">Platform</a><a href="#strategy">Strategy</a><a href="#research">Research</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-side">
+        <select class="lang-select" aria-label="Language selector" onchange="location.href=this.value">
+          <option value="./index.html" selected>EN</option>
+          <option value="./de/index.html">DE</option>
+          <option value="./fr/index.html">FR</option>
+          <option value="./es/index.html">ES</option>
+          <option value="./it/index.html">IT</option>
+        </select>
+        <a class="btn primary" href="#contact">Request Access</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Institutional Digital Assets</p>
+          <h1>Structured crypto allocation for investors who value discipline over noise.</h1>
+          <p>Kryvon Edge combines multi-market signals, liquidity mapping, and risk overlays to help private and professional capital build controlled exposure to digital assets.</p>
+          <div class="signal-strip">
+            <span class="pill">Regime Score: Balanced</span><span class="pill">Liquidity: Healthy</span><span class="pill">Volatility Filter: Active</span><span class="pill">Execution Window: Open</span>
+          </div>
+          <ul class="feature-list">
+            <li><span class="feature-icon">✓</span>Capital-first approach with drawdown awareness.</li>
+            <li><span class="feature-icon">✓</span>On-chain and derivatives data merged into one framework.</li>
+            <li><span class="feature-icon">✓</span>Clear reporting cadence and transparent assumptions.</li>
+          </ul>
+        </div>
+        <aside class="card waitlist">
+          <h3>Private Waitlist</h3>
+          <p>Request early access to our quarterly allocation briefings and scenario notes.</p>
+          <form data-waitlist-form data-disabled-message="Demo form — submission disabled">
+            <label>Full name<input type="text" required placeholder="Alex Morgan"></label>
+            <label>Email<input type="email" required placeholder="alex@domain.com"></label>
+            <label>Telegram / WhatsApp<input type="text" required placeholder="@handle or number"></label>
+            <button class="btn primary" type="submit">Request Access</button>
+            <p class="form-note" data-form-note></p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="platform">
+      <div class="container">
+        <h2>Platform</h2>
+        <p class="lead">Kryvon Edge is designed as a structured crypto intelligence layer for long-horizon portfolios. It translates fragmented market data into allocation-ready guidance with process controls and risk context.</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Edge Advantages</h2>
+        <div class="grid-4">
+          <article class="card benefit"><h3>Regime-aware allocation</h3><p>Portfolio tilts adapt between expansion, distribution, and defensive phases.</p></article>
+          <article class="card benefit"><h3>Liquidity control</h3><p>Position sizing incorporates market depth and stress scenarios.</p></article>
+          <article class="card benefit"><h3>Risk overlays</h3><p>Rule-based overlays reduce exposure during volatility shocks.</p></article>
+          <article class="card benefit"><h3>Cross-market synthesis</h3><p>On-chain structure and derivatives positioning are interpreted jointly.</p></article>
+          <article class="card benefit"><h3>Execution discipline</h3><p>Window-based entries help avoid emotionally driven timing.</p></article>
+          <article class="card benefit"><h3>Transparency</h3><p>Every directional view includes rationale and invalidation levels.</p></article>
+          <article class="card benefit"><h3>Custody awareness</h3><p>Operational risks and custody concentration are tracked explicitly.</p></article>
+          <article class="card benefit"><h3>Flow intelligence</h3><p>Stablecoin flows and exchange transfers inform tactical positioning.</p></article>
+          <article class="card benefit"><h3>Volatility budgeting</h3><p>Expected volatility caps align exposure with portfolio objectives.</p></article>
+          <article class="card benefit"><h3>Review cadence</h3><p>Weekly and monthly checkpoints keep strategy consistent.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="strategy">
+      <div class="container">
+        <h2>Strategy Framework</h2>
+        <p class="lead">Our allocation framework blends market regime diagnostics, realized and implied volatility, flow behavior, derivatives skew, and execution windows to define risk-adjusted positioning.</p>
+        <div class="strategy-points">
+          <article class="card"><h3>Regime Mapping</h3><p>Trend strength, correlation shifts, and liquidity breadth classify each market phase.</p></article>
+          <article class="card"><h3>Volatility Layer</h3><p>Risk budgets are adjusted from realized and forward volatility conditions.</p></article>
+          <article class="card"><h3>Flow & Positioning</h3><p>Funding, open interest concentration, and basis structure reveal crowding risk.</p></article>
+          <article class="card"><h3>Execution Windows</h3><p>Entries are split across windows to reduce slippage and improve discipline.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="research">
+      <div class="container">
+        <h2>Research Signals</h2>
+        <p class="lead">Core signals tracked across the platform include on-chain flows, exchange balances, stablecoin supply momentum, funding and OI structure, and macro liquidity indicators.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Scenario Calculator</h2>
+        <div class="calculator">
+          <div class="card">
+            <div class="range-wrap">
+              <label for="amount">Allocation amount (USD)</label>
+              <input id="amount" type="range" min="5000" max="250000" step="1000" value="50000" data-amount>
+              <output data-amount-output></output>
+            </div>
+            <div class="range-wrap">
+              <label for="years">Time horizon (years)</label>
+              <input id="years" type="range" min="1" max="10" value="4" data-years>
+              <output data-years-output></output>
+            </div>
+          </div>
+          <div class="card calc-results">
+            <p><strong>Final amount:</strong> <span data-final></span></p>
+            <p><strong>Projected profit:</strong> <span data-profit></span></p>
+            <p><strong>Growth:</strong> <span data-growth></span></p>
+            <p class="disclaimer">Informational scenario only. It is not a projection, offer, or financial advice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt"><div class="container"><h2>Market Brief</h2><div class="text-block">Placeholder: Weekly market brief summarizing trend structure, macro liquidity backdrop, and execution risk into a concise institutional overview.</div></div></section>
+    <section class="section"><div class="container"><h2>Risk Notes</h2><div class="text-block">Placeholder: Risk note block outlining volatility spikes, concentration risk, liquidity fragmentation, and key invalidation thresholds.</div></div></section>
+    <section class="section alt"><div class="container"><h2>Strategy Commentary</h2><div class="text-block">Placeholder: Commentary section for tactical adjustments, rebalance pacing, and rationale behind defensive or offensive stance changes.</div></div></section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="grid-4">
+          <article class="card review"><h3>Elena V. — Family Office, Zurich</h3><p>“Kryvon Edge brought structure and governance language to our digital asset exposure.”</p></article>
+          <article class="card review"><h3>Marc D. — Treasury Advisor, Paris</h3><p>“The regime and liquidity view helped us reduce reactive decisions.”</p></article>
+          <article class="card review"><h3>Sofia R. — Portfolio Manager, Madrid</h3><p>“Clear assumptions and invalidation points made internal reporting easier.”</p></article>
+          <article class="card review"><h3>Luca F. — Multi-Asset Desk, Milan</h3><p>“Useful balance between on-chain interpretation and derivatives context.”</p></article>
+          <article class="card review"><h3>Jonas K. — Private Investor, Berlin</h3><p>“Calm framework, no hype, and strong emphasis on risk controls.”</p></article>
+          <article class="card review"><h3>Claire M. — Analyst, Montreal</h3><p>“Execution windows and volatility budgeting improved our deployment process.”</p></article>
+          <article class="card review"><h3>Noah P. — Asset Consultant, London</h3><p>“The transparency around trade-offs is what sets this platform apart.”</p></article>
+          <article class="card review"><h3>Isabel T. — Capital Partner, Lisbon</h3><p>“A practical research layer for long-term crypto allocation decisions.”</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="faq-item"><h3>Is Kryvon Edge promising returns?</h3><p>No. The platform supports decision quality and risk framing, not guaranteed outcomes.</p></div>
+        <div class="faq-item"><h3>Who is this for?</h3><p>Investors seeking structured digital asset research with measured risk language.</p></div>
+        <div class="faq-item"><h3>Does it include custody recommendations?</h3><p>It includes custody awareness checks, but users must perform independent legal and operational due diligence.</p></div>
+        <div class="faq-item"><h3>How often are signals updated?</h3><p>Core dashboards are refreshed regularly, with formal commentary delivered on a scheduled cadence.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">Email: contact@kryvonedge.example<br>Telegram: @kryvonedge</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container text-block">
+        <strong>Disclaimer:</strong> The information on this website is provided for educational and informational purposes only and does not constitute investment advice, solicitation, or a recommendation to buy or sell any asset. Crypto assets are highly volatile and may result in partial or total loss of capital.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Kryvon Edge. All rights reserved.</span>
+      <a href="#" class="footer-link" data-open-policy>Privacy Policy</a>
+    </div>
+  </footer>
+
+  <div class="modal" data-policy-modal>
+    <div class="modal-box">
+      <button class="modal-close" data-close-policy>Close</button>
+      <h2>Privacy Policy</h2>
+      <p>Kryvon Edge collects minimal contact information submitted through the waitlist demo interface. Data is processed for communication purposes only, stored securely, and never sold to third parties. Users may request access, correction, or deletion by contacting our support address. By using this website, you acknowledge that analytical content is informational and that you remain responsible for independent investment decisions.</p>
+    </div>
+  </div>
+</body>
+</html>
